@@ -49,4 +49,13 @@ public class FlowDirector : MonoBehaviour
         if (start.Equals(flow))
             start = flow.next[0];
     }
+    
+    public void EnableFlow(bool enable)
+    {
+        foreach (var flow in list)
+        {
+            flow.gameObject.SetActive(enable);
+        }
+    }
+    
 }

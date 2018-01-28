@@ -52,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1567630598176568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.648766, y: 4.2015247, z: -0.0390625}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalPosition: {x: -2.6779275, y: -1.4309764, z: -0.0390625}
+  m_LocalScale: {x: 0.12, y: 0.11, z: 0.15}
   m_Children:
   - {fileID: 4578980600227706}
   m_Father: {fileID: 0}
@@ -104,8 +104,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03844738, y: -0.1537937}
-  m_Size: {x: 6.7119503, y: 9.222316}
+  m_Offset: {x: -0.06858826, y: 0.060276985}
+  m_Size: {x: 6.4978795, y: 8.451658}
   m_Direction: 0
 --- !u!114 &114947837377847986
 MonoBehaviour:
@@ -122,6 +122,9 @@ MonoBehaviour:
   maxSpeed: 12
   maxSpeedVariation: 3
   entity: {fileID: 11400000, guid: ac23a0b231b85384a97b73697d75d5e8, type: 2}
+  dataRef:
+    size: 10
+    prefab: {fileID: 0}
 --- !u!212 &212422513393346224
 SpriteRenderer:
   m_ObjectHideFlags: 1
