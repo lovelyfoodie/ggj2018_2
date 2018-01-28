@@ -1178,15 +1178,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 523808447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e76dfc2e04e345cca3579df24a48f11, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ac28bfccd20d408f94d8de8adec465c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerObjectives:
-  - {fileID: 1954927087}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   playerName: Player 1
   remainingBlues: {fileID: 2115022117}
   remainingReds: {fileID: 53687112}
@@ -2352,7 +2352,7 @@ Animator:
   m_GameObject: {fileID: 1070737962}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28671211cc558459c8d9e5128683625e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 68e2e3483f6494bbebdeba0862da4bf0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2965,7 +2965,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345240869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21ef5adbc7d484338a765675f4374276, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b2ce3e9813bd4d53a792a88713ab35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1345240871
@@ -4310,15 +4310,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945842190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e76dfc2e04e345cca3579df24a48f11, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ac28bfccd20d408f94d8de8adec465c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerObjectives:
-  - {fileID: 211060433}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
-  - {fileID: 211060433}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   playerName: Player 2
   remainingBlues: {fileID: 1726385268}
   remainingReds: {fileID: 2050763403}
@@ -4343,9 +4343,9 @@ MonoBehaviour:
   OnEndGame:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3de261ea81371c14d81f72a3349333bc, type: 2}
+      - m_Target: {fileID: 11400000, guid: 9f17a507db7b5ad4c9be531500c8fe9a, type: 2}
         m_MethodName: Raise
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
