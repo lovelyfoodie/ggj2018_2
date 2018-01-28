@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="355750934" Language="SFX">
+			<ObjectPath>\SoundBanks\GJW18\GJW18_SB</ObjectPath>
+			<ShortName>GJW18_SB</ShortName>
+			<Path>GJW18_SB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1004882970" Name="play_cell_bad_pass" ObjectPath="\Events\GJW18_Events\play_cell_bad_pass"/>
+				<Event Id="2584748574" Name="play_cell_deflect" ObjectPath="\Events\GJW18_Events\play_cell_deflect"/>
+				<Event Id="4023799486" Name="play_cell_good_pass" ObjectPath="\Events\GJW18_Events\play_cell_good_pass"/>
+				<Event Id="2447410425" Name="play_mx" ObjectPath="\Events\GJW18_Events\play_mx"/>
+				<Event Id="592341563" Name="play_mx_end" ObjectPath="\Events\GJW18_Events\play_mx_end"/>
+				<Event Id="2653351778" Name="play_mx_game" ObjectPath="\Events\GJW18_Events\play_mx_game"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="138661696" Language="SFX">
+					<ShortName>sfx_gjw18_cell_bad_pass_02.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_bad_pass_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="199460429" Language="SFX">
+					<ShortName>sfx_gjw18_cell_deflect_01.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_deflect_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="255931568" Language="SFX">
+					<ShortName>sfx_gjw18_cell_deflect_02.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_deflect_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="269018743" Language="SFX">
+					<ShortName>sfx_gjw18_cell_bad_pass_04.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_bad_pass_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="301691077" Language="SFX">
+					<ShortName>sfx_gjw18_cell_bad_pass_01.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_bad_pass_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="313167873" Language="SFX">
+					<ShortName>mx_gjw18_game_loop.wav</ShortName>
+					<Path>SFX\mx_gjw18_game_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="358426919" Language="SFX">
+					<ShortName>sfx_gjw18_cell_good_pass_03.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_good_pass_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="391698613" Language="SFX">
+					<ShortName>sfx_gjw18_cell_deflect_03.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_deflect_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="392765471" Language="SFX">
+					<ShortName>mx_gjw18_end_stinger.wav</ShortName>
+					<Path>SFX\mx_gjw18_end_stinger_F17FB28C.wem</Path>
+				</File>
+				<File Id="407654271" Language="SFX">
+					<ShortName>mx_gjw18_menu_loop.wav</ShortName>
+					<Path>SFX\mx_gjw18_menu_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="504368298" Language="SFX">
+					<ShortName>sfx_gjw18_cell_bad_pass_03.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_bad_pass_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="563378339" Language="SFX">
+					<ShortName>sfx_gjw18_cell_good_pass_04.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_good_pass_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="638670186" Language="SFX">
+					<ShortName>sfx_gjw18_cell_deflect_04.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_deflect_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="800291950" Language="SFX">
+					<ShortName>sfx_gjw18_cell_good_pass_01.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_good_pass_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="991926982" Language="SFX">
+					<ShortName>sfx_gjw18_cell_good_pass_02.wav</ShortName>
+					<Path>SFX\sfx_gjw18_cell_good_pass_02_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

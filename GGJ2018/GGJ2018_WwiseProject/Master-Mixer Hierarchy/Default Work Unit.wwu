@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E942D8CD-48EA-423F-A593-8D762813431B}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E942D8CD-48EA-423F-A593-8D762813431B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{864B4229-6FC0-44B1-825B-4C98AE2F9BB2}" WorkUnitID="{6ED3F17E-EE21-425E-BF60-697ED8C770B4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{F43844D3-0A53-46A4-8D0B-2EB4B394835D}">
+							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{113F8116-F77B-4448-B7C6-786C1F060700}" ShortID="793566640" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="OutputGain" Type="Real32" Value="8"/>
+												<Property Name="Ratio" Type="Real32" Value="50"/>
+												<Property Name="ReleaseTime" Type="Real32" Value="1"/>
+												<Property Name="Threshold" Type="Real32" Value="-8"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{F640148B-2AB4-4AD1-B2F1-9C5351EF337A}" ShortID="525408335" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="Ratio" Type="Real32" Value="50"/>
+												<Property Name="Threshold" Type="Real32" Value="-0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="MX" ID="{431691A7-1912-4D2B-B916-63E9F0D5A537}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

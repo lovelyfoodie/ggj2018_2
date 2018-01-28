@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - MembraneLayerA
+  - MembraneLayerB
+  - CellLayerA
+  - CellLayerB
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2907550865
+    locked: 0
+  - name: BackEffects
+    uniqueID: 2903164349
+    locked: 0
+  - name: Cell
+    uniqueID: 1918076941
+    locked: 0
+  - name: Overlay
+    uniqueID: 3049961959
+    locked: 0
+  - name: Membrane
+    uniqueID: 3278317779
+    locked: 0

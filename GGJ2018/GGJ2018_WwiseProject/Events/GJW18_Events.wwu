@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="GJW18_Events" ID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_cell_bad_pass" ID="{670C5F2E-57F6-485C-9E05-DC02C8A2DEBC}">
+					<ChildrenList>
+						<Action Name="" ID="{0B627992-B785-4482-944F-EE2D81670CB1}" ShortID="467912301">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_cell_bad_pass" ID="{CF7346E6-5232-4893-BBAA-9C8A26645F1D}" WorkUnitID="{BE8B9B24-5296-4958-92F5-8CA80891B0D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_cell_deflect" ID="{B124B7A8-D467-4102-B3CE-7E5B2A0670D3}">
+					<ChildrenList>
+						<Action Name="" ID="{7ADFC5C9-A80B-4D74-85D8-BDC63B20DD77}" ShortID="183497910">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_cell_deflect" ID="{4688FD2C-87C3-4F5C-BB63-C438A01D0C17}" WorkUnitID="{BE8B9B24-5296-4958-92F5-8CA80891B0D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_cell_good_pass" ID="{65635E70-9072-4EDC-A531-5EBBBAB3EA19}">
+					<ChildrenList>
+						<Action Name="" ID="{8358DE88-7F9D-45EB-AE83-50B00E2D7668}" ShortID="93198118">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_cell_good_pass" ID="{48B11C3C-6864-4D51-898A-4A27B6D29624}" WorkUnitID="{BE8B9B24-5296-4958-92F5-8CA80891B0D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_mx" ID="{4F8715BA-DED9-4DCA-AA0E-502DCC3890C2}">
+					<ChildrenList>
+						<Action Name="" ID="{C2EF290F-5E66-4619-8D85-03101ACD48DE}" ShortID="1031243223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{E5198B93-EC76-4834-B8A9-6CD4B327DC8A}" WorkUnitID="{AA456318-50FF-4302-83C5-238623D5F4BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DC2A7197-E0AE-49BA-B5B9-41F61B144401}" ShortID="833297436">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx_gjw18" ID="{2A45B88A-EE71-49CF-BEC3-794EEA5965A7}" WorkUnitID="{BDC0F0CF-E78D-42D0-9483-6F607E466E16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_mx_end" ID="{CFD3215A-28EB-4D56-9470-A2F045C5D158}">
+					<ChildrenList>
+						<Action Name="" ID="{9DD431C7-0B21-4DD5-8722-977DC9E0E322}" ShortID="328417457">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{E5198B93-EC76-4834-B8A9-6CD4B327DC8A}" WorkUnitID="{AA456318-50FF-4302-83C5-238623D5F4BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_mx_game" ID="{F732818B-2B91-452D-9E67-CD5964A5B59E}">
+					<ChildrenList>
+						<Action Name="" ID="{9E4BFF4D-17DE-4FCF-9E15-861D8A152845}" ShortID="778470752">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game" ID="{4C557364-6A37-4A68-BFAE-A9DDBF2735F4}" WorkUnitID="{AA456318-50FF-4302-83C5-238623D5F4BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{43B68C4B-F163-4CE9-B53F-82617609848C}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{43B68C4B-F163-4CE9-B53F-82617609848C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test" ID="{347981D4-5B99-4D7F-B3B2-C3324310248F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="play_mx" ID="{4F8715BA-DED9-4DCA-AA0E-502DCC3890C2}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_cell_bad_pass" ID="{670C5F2E-57F6-485C-9E05-DC02C8A2DEBC}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_mx_game" ID="{F732818B-2B91-452D-9E67-CD5964A5B59E}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_cell_deflect" ID="{B124B7A8-D467-4102-B3CE-7E5B2A0670D3}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_mx_end" ID="{CFD3215A-28EB-4D56-9470-A2F045C5D158}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_cell_good_pass" ID="{65635E70-9072-4EDC-A531-5EBBBAB3EA19}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="game" ID="{4C557364-6A37-4A68-BFAE-A9DDBF2735F4}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

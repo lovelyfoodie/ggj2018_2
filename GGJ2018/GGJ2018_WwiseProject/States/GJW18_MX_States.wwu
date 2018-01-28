@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA456318-50FF-4302-83C5-238623D5F4BB}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="GJW18_MX_States" ID="{AA456318-50FF-4302-83C5-238623D5F4BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="mx" ID="{BC990FD7-1631-4CF2-BDD0-1411EDAA5435}">
+					<ChildrenList>
+						<State Name="None" ID="{A96CE9AB-D1F6-4E16-AC04-7CA59DAC549A}"/>
+						<State Name="menu" ID="{E5198B93-EC76-4834-B8A9-6CD4B327DC8A}"/>
+						<State Name="game" ID="{4C557364-6A37-4A68-BFAE-A9DDBF2735F4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

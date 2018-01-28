@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{807A46CD-DB78-4BC0-BBD8-477EFBF00C35}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="GJW18" ID="{807A46CD-DB78-4BC0-BBD8-477EFBF00C35}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="GJW18_SB" ID="{A1DF2702-5F61-441D-90D5-D739D0899F06}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GJW18_Events" ID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}" WorkUnitID="{AE0DD843-80BE-4140-AC9B-F1FB63F7A065}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{E942D8CD-48EA-423F-A593-8D762813431B}" WorkUnitID="{E942D8CD-48EA-423F-A593-8D762813431B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GJW18_MX" ID="{BDC0F0CF-E78D-42D0-9483-6F607E466E16}" WorkUnitID="{BDC0F0CF-E78D-42D0-9483-6F607E466E16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GJW18_SFX" ID="{BE8B9B24-5296-4958-92F5-8CA80891B0D2}" WorkUnitID="{BE8B9B24-5296-4958-92F5-8CA80891B0D2}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

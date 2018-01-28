@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	592341563	play_mx_end			\GJW18_Events\play_mx_end	
+	1004882970	play_cell_bad_pass			\GJW18_Events\play_cell_bad_pass	
+	2447410425	play_mx			\GJW18_Events\play_mx	
+	2584748574	play_cell_deflect			\GJW18_Events\play_cell_deflect	
+	2653351778	play_mx_game			\GJW18_Events\play_mx_game	
+	4023799486	play_cell_good_pass			\GJW18_Events\play_cell_good_pass	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1685527054	MX			\Default Work Unit\Master Audio Bus\MX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	525408335	Wwise Compressor (Custom)	Wwise Compressor			
+	793566640	Wwise Compressor (Custom)	Wwise Compressor			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	138661696	sfx_gjw18_cell_bad_pass_02	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_bad_pass_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_bad_pass\sfx_gjw18_cell_bad_pass_02		94228
+	199460429	sfx_gjw18_cell_deflect_01	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_deflect_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_deflect\sfx_gjw18_cell_deflect_01		159206
+	255931568	sfx_gjw18_cell_deflect_02	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_deflect_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_deflect\sfx_gjw18_cell_deflect_02		140106
+	269018743	sfx_gjw18_cell_bad_pass_04	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_bad_pass_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_bad_pass\sfx_gjw18_cell_bad_pass_04		98634
+	301691077	sfx_gjw18_cell_bad_pass_01	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_bad_pass_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_bad_pass\sfx_gjw18_cell_bad_pass_01		95704
+	313167873	mx_gjw18_game_loop	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\mx_gjw18_game_loop_F17FB28C.wem		\Interactive Music Hierarchy\GJW18_MX\mx_gjw18\game\mx_gjw18_game_loop\mx_gjw18_game_loop		33790720
+	358426919	sfx_gjw18_cell_good_pass_03	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_good_pass_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_good_pass\sfx_gjw18_cell_good_pass_03		96550
+	391698613	sfx_gjw18_cell_deflect_03	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_deflect_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_deflect\sfx_gjw18_cell_deflect_03		138044
+	392765471	mx_gjw18_end_stinger	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\mx_gjw18_end_stinger_F17FB28C.wem		\Interactive Music Hierarchy\GJW18_MX\mx_gjw18\start_stinger\mx_gjw18_end_stinger\mx_gjw18_end_stinger		1215168
+	407654271	mx_gjw18_menu_loop	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\mx_gjw18_menu_loop_F17FB28C.wem		\Interactive Music Hierarchy\GJW18_MX\mx_gjw18\menu\mx_gjw18_menu_loop\mx_gjw18_menu_loop		7681024
+	504368298	sfx_gjw18_cell_bad_pass_03	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_bad_pass_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_bad_pass\sfx_gjw18_cell_bad_pass_03		109634
+	563378339	sfx_gjw18_cell_good_pass_04	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_good_pass_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_good_pass\sfx_gjw18_cell_good_pass_04		112534
+	638670186	sfx_gjw18_cell_deflect_04	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_deflect_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_deflect\sfx_gjw18_cell_deflect_04		134986
+	800291950	sfx_gjw18_cell_good_pass_01	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_good_pass_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_good_pass\sfx_gjw18_cell_good_pass_01		118084
+	991926982	sfx_gjw18_cell_good_pass_02	D:\_git\_repo\ggj2018\GGJ2018\GGJ2018_WwiseProject\.cache\Windows\SFX\sfx_gjw18_cell_good_pass_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\GJW18_SFX\sfx_cell_good_pass\sfx_gjw18_cell_good_pass_02		109456
+
