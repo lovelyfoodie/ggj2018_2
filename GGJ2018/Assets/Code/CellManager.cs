@@ -37,6 +37,8 @@ public class CellManager : MonoBehaviour
             {
                 var go = Instantiate(data.prefab);
                 go.transform.position = GetSpawnLocation();
+                var cell = go.GetComponent<Cell>();
+                cell.dataRef = data;
                 data.Cells.Add(go);
             }
         }

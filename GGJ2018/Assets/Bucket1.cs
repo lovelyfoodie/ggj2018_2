@@ -46,7 +46,17 @@ public class Bucket1 : MonoBehaviour {
 			blueCount++;
 		}
 		CheckIfObjectiveComplete ();
+        Despawn(other.GetComponentInParent<Cell>());
 	}
+
+    void Despawn(Cell cell)
+    {
+        if (!cell)
+            return;
+
+        cell.dataRef.Cells.Remove(cell.gameObject);
+        Destroy(cell.gameObject);
+    }
 
 	void UpdateUI(int _blueLeft, int _redLeft, bool complete){
 		remainingBlues.text = _blueLeft.ToString ();
