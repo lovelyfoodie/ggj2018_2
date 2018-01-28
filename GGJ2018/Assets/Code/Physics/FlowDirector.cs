@@ -54,7 +54,7 @@ public class FlowDirector : MonoBehaviour
     {
         foreach (var flow in list)
         {
-            flow.enabled = enable;
+            flow.gameObject.SetActive(enable);
         }
     }
     
