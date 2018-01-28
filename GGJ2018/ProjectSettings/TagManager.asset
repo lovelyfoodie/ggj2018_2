@@ -17,9 +17,9 @@ TagManager:
   - MembraneLayerB
   - CellLayerA
   - CellLayerB
-  - 
-  - 
-  - 
+  - BlockLayerA
+  - BlockLayerB
+  - BlockLayerDefault
   - 
   - 
   - 
