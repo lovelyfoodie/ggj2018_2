@@ -1210,7 +1210,18 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   OnEndGame:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 9f17a507db7b5ad4c9be531500c8fe9a, type: 2}
+        m_MethodName: Raise
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   objectivesCollection: {fileID: 2019447798}
@@ -2047,7 +2058,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4954287012730126, guid: 1360963055dc39f48806fceb156b31fe, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1465012083918350, guid: 1360963055dc39f48806fceb156b31fe, type: 2}
       propertyPath: m_Name
@@ -2415,6 +2426,45 @@ PolygonCollider2D:
       - {x: -5.9899487, y: 8.727974}
       - {x: -2.0400853, y: 10.026172}
       - {x: 2.6424904, y: 10.211939}
+--- !u!1 &1108616475 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1409723084655874, guid: 30281fd92fcba2f408249c82c762b3b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1560664981}
+--- !u!114 &1108616476 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114212219045378154, guid: 30281fd92fcba2f408249c82c762b3b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1560664981}
+  m_Script: {fileID: 11500000, guid: eee11ed0963607241a6baba6c9691240, type: 3}
+--- !u!114 &1108616478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1108616475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293986d0bc424c14a9b796a6c9d73cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 9f17a507db7b5ad4c9be531500c8fe9a, type: 2}
+  OnRaise:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1108616476}
+        m_MethodName: EnableFlow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: BoolUnityEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &1194852171
 GameObject:
   m_ObjectHideFlags: 0
