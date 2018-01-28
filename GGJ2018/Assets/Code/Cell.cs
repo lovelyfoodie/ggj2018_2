@@ -11,6 +11,7 @@ public class Cell : MonoBehaviour
     public float maxSpeed = 1f;
     public float maxSpeedVariation = 0.2f;
     public Entity entity;
+    public CellType dataRef;
 
     private Rigidbody2D _rb;
     private float _sqrMagMaxSpeed;
