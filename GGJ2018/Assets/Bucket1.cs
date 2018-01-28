@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-using UnityEngine.Experimental.UIElements;
 using UnityEngine.Events;
 
 public class Bucket1 : MonoBehaviour {
@@ -23,7 +22,11 @@ public class Bucket1 : MonoBehaviour {
 	public int redCount = 0; 
 	public int blueCount = 0;
 	public UnityEvent OnObjectiveComplete;
+    public UnityEvent OnEndGame;
 	public Objectives_Collection objectivesCollection;
+    public Image[] objImages = new Image[5];
+    public Animator panelAnim;
+    public Text playerNameText;
 
 
 	// Use this for initialization
@@ -50,10 +53,14 @@ public class Bucket1 : MonoBehaviour {
 		remainingReds.text = _redLeft.ToString ();
 		if (complete) {
 			redCount = 0;
-			blueCount = 0;
+            blueCount = 0;
+            OnObjectiveComplete.Invoke();
+            objImages[currObjectiveIndex].color = Color.green;
 			if (currObjectiveIndex == playerObjectives.Length - 1) {
+                panelAnim.SetBool("GameOver",true);
+                playerNameText.text = playerName;
 				Debug.Log (playerName + " wins!");
-				OnObjectiveComplete.Invoke ();
+                OnEndGame.Invoke ();
 			} else {
 				currObjectiveIndex++;
 				Ojbective tempObjective = playerObjectives [currObjectiveIndex];
